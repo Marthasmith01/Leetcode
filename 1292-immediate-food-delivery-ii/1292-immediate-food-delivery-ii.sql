@@ -3,8 +3,7 @@ with FirstOrders as
 
 #creates secondary table from delivery table
 
-(select d.*
-from Delivery d
+(select d.* from Delivery d
 
 #selects the whole delivery table
 
